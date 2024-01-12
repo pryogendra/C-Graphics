@@ -16,8 +16,8 @@ int main()
 	outtextxy(10,10,"********************** 2D Scaling  ***************************");
 	outtextxy(x1,y1,"Line before Scaling");
 	line(x1,y1,x2,y2);
-	x1+=s;
-	y1+=s;
+	x1-=s;
+	y1-=s;
 	x2+=s;
 	y2+=s;
 	outtextxy(x1,y1,"Line after Scaling");
